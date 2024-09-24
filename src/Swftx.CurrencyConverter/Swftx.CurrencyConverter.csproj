@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<LangVersion>12.0</LangVersion>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+	</PropertyGroup>
+
+	<PropertyGroup>
+		<Version>1.0.0</Version>
+		<PackageReleaseNotes>Release.</PackageReleaseNotes>
+	</PropertyGroup>
+
+	<PropertyGroup>
+		<SignAssembly>True</SignAssembly>
+		<AssemblyOriginatorKeyFile>Swftx.CurrencyConverter.snk</AssemblyOriginatorKeyFile>
+		<Title>Swftx.CurrencyConverter</Title>
+		<Authors>swiftx37@gmail.com</Authors>
+		<Description>Client for the Currency Conversion and Exchange Rates API.</Description>
+		<PackageProjectUrl>https://github.com/swift37/Swftx.CurrencyConverter</PackageProjectUrl>
+		<RepositoryUrl>https://github.com/swift37/Swftx.CurrencyConverter</RepositoryUrl>
+		<RepositoryType>git</RepositoryType>
+		<PackageTags>Currency, CurrencyConverter, CurrencyConversion, ExchangeRates.</PackageTags>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+	</PropertyGroup>
+
+</Project>

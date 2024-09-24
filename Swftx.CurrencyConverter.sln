@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{533810CC-5DFA-473B-BFE8-7650E43A4DAE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Swftx.CurrencyConverter", "src\Swftx.CurrencyConverter\Swftx.CurrencyConverter.csproj", "{F3243284-691B-4B16-936B-DE5824B0CA75}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{2E5EE8BE-6677-4CDA-93EB-C93D9D8EC03E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Swftx.CurrencyConverter.UnitTests", "tests\Swftx.CurrencyConverter.UnitTests\Swftx.CurrencyConverter.UnitTests.csproj", "{C2A6DA15-C197-45A3-8D39-091BD7216A74}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F3243284-691B-4B16-936B-DE5824B0CA75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3243284-691B-4B16-936B-DE5824B0CA75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3243284-691B-4B16-936B-DE5824B0CA75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3243284-691B-4B16-936B-DE5824B0CA75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2A6DA15-C197-45A3-8D39-091BD7216A74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2A6DA15-C197-45A3-8D39-091BD7216A74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2A6DA15-C197-45A3-8D39-091BD7216A74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2A6DA15-C197-45A3-8D39-091BD7216A74}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F3243284-691B-4B16-936B-DE5824B0CA75} = {533810CC-5DFA-473B-BFE8-7650E43A4DAE}
+		{C2A6DA15-C197-45A3-8D39-091BD7216A74} = {2E5EE8BE-6677-4CDA-93EB-C93D9D8EC03E}
+	EndGlobalSection
+EndGlobal
